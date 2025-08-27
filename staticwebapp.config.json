@@ -55,6 +55,11 @@
       "allowedRoles": ["admin", "editor", "readonly", "authenticated"]
     }
   ],
+  "networking": {
+    "allowedIpRanges": [
+      "98.128.170.118/32",
+      "213.212.16.130/32"
+    ]
   "navigationFallback": {
     "rewrite": "index.html",
     "exclude": [
